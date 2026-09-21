@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Records</title>
+
+    <style>
+        table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: lightyellow;
+    margin: 20px auto;
+}
+
+th {
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+td {
+    border: 2px solid black;
+    padding: 12px;
+    text-align: center;
+}
+
+tr {
+    height: 50px;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+tr:hover {
+    background-color: lightgreen;
+}
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">First Name</th>
+                <th rowspan="2">Middle Name</th>
+                <th rowspan="2">Last Name</th>
+                <th rowspan="2">Gender</th>
+
+                <!-- Date of Birth merged across 3 columns -->
+                <th colspan="3" class="dob">Date of Birth</th>
+
+                <th rowspan="2">Score</th>
+            </tr>
+
+            <tr>
+                <th class="dob">Month</th>
+                <th class="dob">Date</th>
+                <th class="dob">Year</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Daniel</td>
+                <td>Michael</td>
+                <td>Anderson</td>
+                <td>Male</td>
+                <td>March</td>
+                <td>14</td>
+                <td>2004</td>
+                <td class="score">87</td>
+            </tr>
+
+            <tr>
+                <td>Sophia</td>
+                <td>Grace</td>
+                <td>Williams</td>
+                <td>Female</td>
+                <td>July</td>
+                <td>22</td>
+                <td>2005</td>
+                <td class="score">92</td>
+            </tr>
+
+            <tr>
+                <td>David</td>
+                <td>James</td>
+                <td>Thompson</td>
+                <td>Male</td>
+                <td>January</td>
+                <td>8</td>
+                <td>2003</td>
+                <td class="score">78</td>
+            </tr>
+
+            <tr>
+                <td>Amelia</td>
+                <td>Rose</td>
+                <td>Johnson</td>
+                <td>Female</td>
+                <td>October</td>
+                <td>31</td>
+                <td>2004</td>
+                <td class="score">95</td>
+            </tr>
+
+            <tr>
+                <td>Christopher</td>
+                <td>Paul</td>
+                <td>Martins</td>
+                <td>Male</td>
+                <td>May</td>
+                <td>17</td>
+                <td>2002</td>
+                <td class="score">84</td>
+            </tr>
+
+            <tr>
+                <td>Olivia</td>
+                <td>Jane</td>
+                <td>Brown</td>
+                <td>Female</td>
+                <td>December</td>
+                <td>5</td>
+                <td>2005</td>
+                <td class="score">89</td>
+            </tr>
+
+            <tr>
+                <td>Samuel</td>
+                <td>David</td>
+                <td>Wilson</td>
+                <td>Male</td>
+                <td>August</td>
+                <td>26</td>
+                <td>2003</td>
+                <td class="score">73</td>
+            </tr>
+
+            <tr>
+                <td>Isabella</td>
+                <td>Marie</td>
+                <td>Harris</td>
+                <td>Female</td>
+                <td>February</td>
+                <td>11</td>
+                <td>2004</td>
+                <td class="score">97</td>
+            </tr>
+
+            <tr>
+                <td>Benjamin</td>
+                <td>Alexander</td>
+                <td>Clark</td>
+                <td>Male</td>
+                <td>September</td>
+                <td>19</td>
+                <td>2002</td>
+                <td class="score">81</td>
+            </tr>
+
+            <tr>
+                <td>Charlotte</td>
+                <td>Elizabeth</td>
+                <td>Lewis</td>
+                <td>Female</td>
+                <td>June</td>
+                <td>3</td>
+                <td>2005</td>
+                <td class="score">94</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
